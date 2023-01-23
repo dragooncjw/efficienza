@@ -4,10 +4,7 @@ const { ipcRenderer, contextBridge } = require('electron');
 
 contextBridge.exposeInMainWorld('api', {
   // react to electron
-  selectValue: (args) => {
-    console.log('v alskajsd', args)
-    ipcRenderer.send('select-value', args)
-  },
+  selectValue: (args) => ipcRenderer.send('select-value', args),
   // Receive Methods
   clipboardTextChange: (callback) => ipcRenderer.on('text-change', (event, data) => { callback(data) }),
 });

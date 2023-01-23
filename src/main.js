@@ -36,7 +36,7 @@ const createWindow = () => {
   mainWindow.loadURL(MAIN_WINDOW_WEBPACK_ENTRY);
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools();
+  // mainWindow.webContents.openDevTools();
 };
 
 app.whenReady().then(() => {
@@ -59,7 +59,6 @@ app.on('ready', function() {
       globalMainWindow.restore()
     }
     globalMainWindow.focus()
-    console.log('ctrl+d registed');
     // 可以往剪贴板里写点东西
     clipboard.writeText('123123123')
   })

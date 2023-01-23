@@ -7,7 +7,6 @@ const SelectHistory = () => {
   const [options, setOptions] = useState([]);
 
   const handleChange = (v) => {
-    console.log('v', v)
     window.api.selectValue(v)
   }
 
