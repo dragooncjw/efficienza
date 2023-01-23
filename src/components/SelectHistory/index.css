@@ -1,0 +1,12 @@
+#container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ant-select {
+    width: 100%;
+    margin: 0 60px;
+}

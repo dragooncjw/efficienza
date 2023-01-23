@@ -1,0 +1,12 @@
+html, body {
+  position: relative;
+  width:100vw;
+  height:100vh;
+  margin:0;
+  background: #263238;
+}
+.ReactCodeMirror,.CodeMirror {
+  position: absolute;
+  height: 100vh;
+  inset: 0;
+}

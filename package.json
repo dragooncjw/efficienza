@@ -1,0 +1,45 @@
+{
+  "name": "clipboard",
+  "productName": "clipboard",
+  "version": "1.0.0",
+  "description": "clipboard for history",
+  "main": ".webpack/main",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": {
+    "name": "zjutcjw",
+    "email": "289056872@qq.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.4",
+    "@electron-forge/maker-deb": "^6.0.4",
+    "@electron-forge/maker-rpm": "^6.0.4",
+    "@electron-forge/maker-squirrel": "^6.0.4",
+    "@electron-forge/maker-zip": "^6.0.4",
+    "@electron-forge/plugin-webpack": "^6.0.4",
+    "@vercel/webpack-asset-relocator-loader": "1.7.3",
+    "css-loader": "^6.0.0",
+    "electron": "22.0.3",
+    "node-loader": "^2.0.0",
+    "style-loader": "^3.0.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-react": "^7.18.6",
+    "antd": "^5.1.6",
+    "babel-loader": "^9.1.2",
+    "codemirror": "^6.0.1",
+    "electron-clipboard-extended": "^1.1.1",
+    "electron-squirrel-startup": "^1.0.0",
+    "react": "^18.2.0",
+    "react-codemirror": "^1.0.0",
+    "react-dom": "^18.2.0"
+  }
+}
